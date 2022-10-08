@@ -148,3 +148,30 @@ h2 {
   margin-bottom: 130px;
 }
 
+/* quote */
+
+.quote {
+  background-color: #e5e7eb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  max-width: 900px; 
+  display: flex;
+  flex-direction: column;
+  margin: 140px 0 100px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* call to action */
