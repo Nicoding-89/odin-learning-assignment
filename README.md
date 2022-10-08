@@ -4,9 +4,6 @@ This assignment is about creating an entire web page from a design provided by T
 
 Picture credits
 
-Creator: No-longer-here
-Link: https://pixabay.com/illustrations/coffee-shop-shop-store-coffee-cup-220225/
-
 Creator: BenediktGeyer
 Link: https://pixabay.com/photos/coffee-coffee-beans-heart-i-love-2918559/
 
