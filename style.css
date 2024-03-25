@@ -1,6 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
@@ -10,26 +8,16 @@ body {
 
 .header {
   background-color: #1f2937;
-  width: 100%;
+  padding: 1rem 7rem 5rem;
+}
+
+.header-top,
+.header-text {
   display: flex;
-  flex-direction: column;
-  align-items: center; 
-  padding-top: 30px;
-}
-
-.header.top,
-.header.text {
-width: 1200px;
-flex-direction: row;
-justify-content: space-between;
-padding: 0;
-align-items: center;
-}
-
-.header.text {
+  justify-content: space-between;
   align-items: center;
-  margin: 80px 0 150px;
-  height: 280px;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .header-logo {
@@ -68,12 +56,12 @@ p {
 }
 
 .text {
-  width: 400px;
+  max-width: 40%;
 }
+
 
 .header-pic {
   width: 600px;
-  height: 100%;
   object-fit: cover;
   object-position: 0% 40%;
 }
