@@ -20,6 +20,11 @@ body {
   padding: 0;
 }
 
+.header-text{
+  padding-top: 2rem;
+  background-color: aqua;
+}
+
 .header-logo {
   width: 200px;
   height: 55px;
@@ -56,12 +61,18 @@ p {
 }
 
 .text {
-  max-width: 40%;
+  max-width: 40%; 
+  margin-bottom: 2rem;
+  background-color: red;
 }
 
+.header-pic-container {
+  background-color: yellow;
+}
 
 .header-pic {
-  width: 600px;
+  max-width: 100%; /* Cambiamos width por max-width */
+  /*height: auto; */ /* Para mantener la proporción de aspecto */
   object-fit: cover;
   object-position: 0% 40%;
 }
