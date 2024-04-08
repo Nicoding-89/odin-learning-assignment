@@ -1,6 +1,7 @@
 # odin-learning-assignment
 
-This assignment is about creating an entire web page from a design provided by The Odin Project, in order to test and develop HTML, CSS and Flexbox basic skills. 
+This assignment is about creating a landing page from a design provided by The Odin Project, in order to test and develop HTML, CSS and Flexbox basic skills. 
+No CSS media queries yet.
 
 Picture credits
 

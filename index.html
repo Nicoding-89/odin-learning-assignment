@@ -10,72 +10,86 @@
   
   <body>
     <div class="header">
-      <div class="header-top">
-        <div class="logo-card">
-          <img class="header-logo" src="./images/coffee-shop-logo1.jpg" width="300px" height="200px" alt="coffee shop logo">
+      <div class="header-navbar row">
+        <div class="logo-navbar">
+          <img class="header-logo" src="./images/coffee-shop-logo1.jpg" alt="coffee shop logo">
         </div>
-        <ul class="links-top">
+        <ul class="navbar-links row">
           <li><a href="#">header link one</a></li>
           <li><a href="#">header link two</a></li>
           <li><a href="#">header link three</a></li>
         </ul>
       </div>
-      <div class="header-text">
+      <div class="header-content row">
         <div class="text">
           <h1>This website is awesome</h1>
           <p>This website has some subtext that goes here under the main title. it's a smaller font and the color is lower contrast</p>
           <button>Sign up</button>
         </div>
         <div class="header-pic-container">
-          <img class="header-pic" src="./images/ilovecoffee.jpg" width="600px" height="290px" alt="I love coffee">
+          <img class="header-pic" src="./images/ilovecoffee.jpg" alt="I love coffee">
         </div>        
       </div>
     </div>
 
     <div class="information">
       <h2>Some random information</h2>
-      <div class="information-container">
-        <div class="picture-container">
-          <div class="card">
-            <img class="capuccino" src="./images/capuccino.jpeg" width="200px" alt="a capuccino">
+      <div class="information-container row">
+        <div class="card">
+          <div class="card-img-top">
+            <img class="card-img" id="capuccino-pic-info" src="./images/capuccino.jpeg" width="250px" alt="a capuccino">
+          </div>            
+          <div class="card-body">
+            <p class="card-text">This is some subtext under an illustration or image</p>
           </div>
-          <div class="description">This is some subtext under an illustration or image</div>
         </div>
-        <div class="picture-container">
-          <div class="card">
-            <img class="blackcoffee" src="./images/black-coffee.jpeg" width="200px" alt="a black coffee">
+        <div class="card">
+          <div class="card-img-top">
+            <img class="card-img" id="blackCoffee-pic-info" src="./images/black-coffee.jpeg" width="250px" alt="a black coffee">
+          </div>            
+          <div class="card-body">
+            <p class="card-text">This is some subtext under an illustration or image</p>
           </div>
-          <div class="description">This is some subtext under an illustration or image</div>
         </div>
-        <div class="picture-container">
-          <div class="card">
-            <img class="mokaccino" src="./images/mokaccino.jpg" width="200px" alt="a mokaccino">
+        <div class="card">
+          <div class="card-img-top">
+            <img class="card-img" id="mokaccino-pic-info" src="./images/mokaccino.jpg" width="250px" alt="a mokaccino">
+          </div>            
+          <div class="card-body">
+            <p class="card-text">This is some subtext under an illustration or image</p>
           </div>
-          <div class="description">This is some subtext under an illustration or image</div>
         </div>
-        <div class="picture-container">
-          <div class="card">
-            <img class="coffee-rain" src="./images/coffee-rain.jpeg" width="200px" alt="a cup of coffee under the rain">
+        <div class="card">
+          <div class="card-img-top">
+            <img class="card-img" id="rainCoffee-pic-info" src="./images/coffee-rain.jpeg" width="250px" alt="a cup of coffee under the rain">
+          </div>           
+          <div class="card-body">
+            <p class="card-text">This is some subtext under an illustration or image</p>
           </div>
-          <div class="description">This is some subtext under an illustration or image</div>
+        </div>
+      </div>
+    </div> 
+      <div class="quote">
+        <div class="quote-container">
+          <div class="quote-text">
+            <p>This is an inspire quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+          </div>
+          <div class="quote-author">
+            <p>-Thor, God of Thunder</p>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="quote">
-      <div class="quote-text">This is an inspire quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.<div class="quote-author">-Thor, God of Thunder</div>
-      </div>
-    </div>
-
     <div class="action">
-      <div class="action-container">
-        <div class="call">Call to action! It's time!</div>
-        <p>Sign up for our product by clicking that button right over there!</p>
+      <div class="action-container row">
+        <div class="action-text">
+          <h5 class="call">Call to action! It's time!</h5>
+          <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <button>Sign up</button>      
       </div>
-      <button>Sign up</button>      
     </div>
-
+    
     <div class="footer">Copyright © The Odin Project 2022</div>
-  
   </body>
 </html>
